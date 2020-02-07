@@ -1,17 +1,15 @@
 //Javascript begin
 var pics = [
-    "imgs/kitty_bed.JPG",
-    "imgs/kitty_basket.JPG",
-    "imgs/kitty_laptop.jpg",
-    "imgs/kitty_door.jpg",
-    "imgs/kitty_sink.JPG",
-    "imgs/kitty_wall.jpg"
+    "imgs/kitty_bed.JPG",     //0
+    "imgs/kitty_basket.JPG",  //1
+    "imgs/kitty_laptop.jpg",  //2
+    "imgs/kitty_door.jpg",    //3
+    "imgs/kitty_sink.JPG",    //4
+    "imgs/kitty_wall.jpg"     //5
 ]
 
 var btn = document.querySelector("button");
 var img = document.querySelector("img");
 
 btn.addEventListener("click", function(){
-    img.src = "imgs/kitty_sink.JPG";
-
-});
+    img.src = pics[1]
