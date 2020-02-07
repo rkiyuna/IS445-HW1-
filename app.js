@@ -15,3 +15,4 @@ var counter = 1;
 btn.addEventListener("click", function(){
     img.src = pics[counter]
     counter = counter + 1;
+});
