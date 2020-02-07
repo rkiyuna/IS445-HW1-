@@ -9,7 +9,9 @@ var pics = [
 ]
 
 var btn = document.querySelector("button");
+var img = document.querySelector("img");
+
 btn.addEventListener("click", function(){
-    alert("CLICKED!")
+    img.src = "imgs/kitty_sink.JPG";
 
 });
