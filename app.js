@@ -10,6 +10,8 @@ var pics = [
 
 var btn = document.querySelector("button");
 var img = document.querySelector("img");
+var counter = 1;
 
 btn.addEventListener("click", function(){
-    img.src = pics[1]
+    img.src = pics[counter]
+    counter = counter + 1;
