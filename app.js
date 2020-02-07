@@ -1,4 +1,5 @@
 //Javascript begin
+alert("HELLO FROM APP.JS!");
 var pics = [
     "imgs/kitty_bed.JPG",
     "imgs/kitty_basket.JPG",
@@ -7,3 +8,5 @@ var pics = [
     "imgs/kitty_sink.JPG",
     "imgs/kitty_wall.jpg"
 ]
+
+var btn = document.querySelector("button");
